@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #35374B;
+    /* color: #78A083; */
+}
+
+h2,
+p {
+    color: aliceblue;
+}
+
+p{
+    margin-bottom: 0.5rem;
+}
+.container {
+    min-height: 45vh;
+    width: 40vh;
+    background-color: #344955;
+    /* border: 2px solid black; */
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 6px 1px white;
+}
+
+form {
+    margin: 2rem 0 2rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #50727B;
+    color: aqua;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid #35374B;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+form input::placeholder {
+    color: aqua;
+}
+
+.doropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.doropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: aqua;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #35374B;
+    background-color: #50727B;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+    color: aliceblue;
+}
+
+form button {
+    height: 3rem;
+    background-color: #212e35;
+    color: aqua;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+form button:active{
+    box-shadow: 2px 2px 6px 6px rgb(15, 15, 17);
+}
